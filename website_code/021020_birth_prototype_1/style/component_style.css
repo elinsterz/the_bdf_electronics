@@ -1,9 +1,9 @@
-div{
+/* div{
     border: red 0.25px solid;
-}
+} */
 
 html, body { 
-    font-size: 18px; 
+    font-size: 1.6em; 
 }
 
 @font-face {
@@ -77,26 +77,64 @@ html, body {
     position: absolute;
     width: 100vw;
     z-index: 3;
-    padding: 3%;
+    padding: 3vw 3vh;
 }
 
 #intro-component-title{
     width: 100vw;
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 2.75rem;
+    line-height: 3.25rem;
     letter-spacing: 0.025rem;
     vertical-align: text-bottom;
 }
 
 .underline{
-    border-bottom: 2px solid #13E756;
+    border-bottom: 0.2rem solid #13E756;
     display: inline-block;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
+/* IMG */
+#component-img-div{
+    width: 85vw;
+    height: auto;
+}
+
+.component-img{
+    top: 5vh;
+}
+
+#soundcard-img{
+    width: 75vw;
+    height: auto;
+    z-index: 5;
+    padding-top: 5vh;
+}
+
+/* BOTTOM */
 #bottom-component-div{
     position: absolute;
     bottom: 0;
     width: 100vw;
-    height: 60vh;
+    height: 75vh;
+    background-color: #13E756;
+    padding-top: 10vh;
+    z-index: 1;
 }
+
+.component-item{
+    height: 75%;
+    width: 75%;
+    margin: 3vh 3vw;
+    background-color: white;
+    padding: 4vh 3vw;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.009em;
+}
+
+.shadow {
+    -webkit-box-shadow: 3px 3px 7px 5px rgb(0, 0, 0, 0.25);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 7px 5px rgb(0, 0, 0, 0.25);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 7px 5px rgb(0, 0, 0, 0.25);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }

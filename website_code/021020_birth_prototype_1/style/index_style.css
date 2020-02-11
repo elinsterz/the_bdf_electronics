@@ -3,7 +3,7 @@
 } */
 
 html, body { 
-    font-size: 18px; 
+    font-size: 1.75em; 
 }
 
 @font-face {
@@ -50,11 +50,13 @@ html, body {
 .lightweight{
     font-family: 'Champion-HTF-Lightweight';
     text-transform: uppercase;
+    color: black;
 }
 
 .heavyweight{
     font-family: 'Champion-HTF-Heavyweight';
     text-transform: uppercase;
+    color: black;
 }
 
 /* CONTAINER */
@@ -83,8 +85,8 @@ html, body {
 
 #intro-title{
     width: 100vw;
-    font-size: 3.5rem;
-    line-height: 3.5rem;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
     letter-spacing: 0.025rem;
 }
 
@@ -109,7 +111,7 @@ html, body {
     z-index: 1;
     font-family: 'GT-America-Mono-Regular';
     font-size: 0.9rem;
-    border-bottom: #13E756 1.75px solid;
+    border-bottom: #13E756 0.105rem solid;
     margin-bottom: 2vh;
     padding-bottom: 1vh;
 }
@@ -117,6 +119,7 @@ html, body {
 #bottom-text-instruction{
     font-family: 'Champion-HTF-Middleweight';
     font-size: 1.75rem;
+    line-height: 2.25rem;
     text-transform: uppercase;
     letter-spacing: 0.07rem;
     padding-top: 1vh;
