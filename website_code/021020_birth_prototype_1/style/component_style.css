@@ -3,7 +3,7 @@
 } */
 
 html, body { 
-    font-size: 1.6em; 
+    font-size: 1.7em; 
 }
 
 @font-face {
@@ -86,6 +86,7 @@ html, body {
     line-height: 3.25rem;
     letter-spacing: 0.025rem;
     vertical-align: text-bottom;
+    z-index: 10;
 }
 
 .underline{
@@ -95,31 +96,27 @@ html, body {
 }
 
 /* IMG */
-#component-img-div{
-    width: 85vw;
-    height: auto;
-}
-
-.component-img{
-    top: 5vh;
+.component-img-div{
+    top: 2vh;
+    padding: 5vh 5vw;
+    position: absolute;
+    z-index: -1;
 }
 
 #soundcard-img{
-    width: 75vw;
-    height: auto;
-    z-index: 5;
-    padding-top: 5vh;
+    width: 80vw;
+    padding: 8vh 3vw;
 }
 
 /* BOTTOM */
 #bottom-component-div{
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    position:relative;
+    top: 35vh;
     width: 100vw;
-    height: 75vh;
+    height: 70vh;
     background-color: #13E756;
-    padding-top: 10vh;
-    z-index: 1;
+    z-index: 5;
 }
 
 .component-item{
@@ -137,4 +134,19 @@ html, body {
     -webkit-box-shadow: 3px 3px 7px 5px rgb(0, 0, 0, 0.25);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:    3px 3px 7px 5px rgb(0, 0, 0, 0.25);  /* Firefox 3.5 - 3.6 */
     box-shadow:         3px 3px 7px 5px rgb(0, 0, 0, 0.25);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+
+
+  /* PLUS SIGN */
+
+  .plus-div{
+      background-color: black;
+      color: white;
+      width: 1.5rem;
+      height: 1.5rem;
+      text-align: center;
+      position: relative;
+      float: right;
+      top: -3vh;
+      right: -1vw;
   }
