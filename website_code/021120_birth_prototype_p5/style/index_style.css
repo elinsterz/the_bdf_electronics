@@ -1,0 +1,129 @@
+/* div{
+    border: red 0.25px solid;
+} */
+
+html, body { 
+    font-size: 1.75em; 
+}
+
+@font-face {
+    font-family:'Champion-HTF-Heavyweight';
+    src: url('fonts/Champion-HTF-Heavyweight.eot');
+    src: url('fonts/Champion-HTF-Heavyweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'Champion-HTF-Lightweight';
+    src: url('fonts/Champion-HTF-Lightweight.eot');
+    src: url('fonts/Champion-HTF-Lightweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'Champion-HTF-Middleweight';
+    src: url('fonts/Champion-HTF-Middleweight.eot');
+    src: url('fonts/Champion-HTF-Middleweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'GT-America-Mono-Medium';
+    src: url('fonts/GT-America-Mono-Medium.eot');
+    src: url('fonts/GT-America-Mono-Medium.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'GT-America-Mono-Regular';
+    src: url('fonts/GT-America-Mono-Regular.eot');
+    src: url('fonts/GT-America-Mono-Regular.ttf');
+    format('truetype');
+}
+
+/* GRID */
+.col-12 {
+    padding: 0;
+}
+
+/* FONT CLASS */
+.lightweight{
+    font-family: 'Champion-HTF-Lightweight';
+    text-transform: uppercase;
+    color: black;
+}
+
+.heavyweight{
+    font-family: 'Champion-HTF-Heavyweight';
+    text-transform: uppercase;
+    color: black;
+}
+
+/* CONTAINER */
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background-color: #13E756;
+    background-image: url("assets/birth_pattern.svg");
+    background-size: cover;
+}
+
+/* INTRO */
+#intro-div{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    position: absolute;
+    width: 100vw;
+    z-index: 3;
+    padding: 3%;
+}
+
+#intro-title{
+    width: 100vw;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    letter-spacing: 0.025rem;
+}
+
+/* BOTTOM */
+#bottom-container{
+    display: block;
+    padding-top: 2vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0%;
+    width: 100vw;
+    height: 25%;
+    color: white;  
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+
+#bottom-text-steps{
+    z-index: 1;
+    font-family: 'GT-America-Mono-Regular';
+    font-size: 0.9rem;
+    border-bottom: #13E756 0.105rem solid;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+}
+
+#bottom-text-instruction{
+    font-family: 'Champion-HTF-Middleweight';
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07rem;
+    padding-top: 1vh;
+}
+
+
+
