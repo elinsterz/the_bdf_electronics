@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Champion-HTF-Bantamweight';
+    src: url('/assets/fonts/Champion-HTF-Bantamweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Bantamweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Champion-HTF-Featherweight';
+    src: url('/assets/fonts/Champion-HTF-Featherweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Featherweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Champion-HTF-Heavyweight';
+    src: url('/assets/fonts/Champion-HTF-Heavyweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Heavyweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Champion-HTF-Middleweight';
+    src: url('/assets/fonts/Champion-HTF-Middleweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Middleweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'GT-America-Mono-Medium';
+    src: url('/assets/fonts/GT-America-Mono-Medium.eot');
+    src: url('/assets/fonts/GT-America-Mono-Medium.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'GT-America-Mono-Regular';
+    src: url('/assets/fonts/GT-America-Mono-Regular.eot');
+    src: url('/assets/fonts/GT-America-Mono-Regular.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'GT-Sectra-Medium';
+    src: url('/assets/fonts/GT-Sectra-Medium.eot');
+    src: url('/assets/fonts/GT-Sectra-Medium.ttf');
+    format('truetype');
+}
+
+/* div {
+    border: 0.7px red dashed;
+} */
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: #DADADA;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(10%, min-content));
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+}
+
+#header {
+    grid-column: 1/-1;
+    border-bottom: 2px solid #00DD16;
+}
+
+#header-div {
+    padding: 0em 15px;
+}
+
+.header-text {
+    font-family: "Champion-HTF-Heavyweight";
+    font-size: 3em;
+    line-height: 0em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+/* LEFT SIDE*/
+
+#left-div {
+    grid-column: 1/2;
+    grid-row: 2/8;
+    border-bottom: 2px solid #00DD16;
+    border-right: 2px solid #00DD16;
+    padding: 15px;
+}
+
+#left-about {
+    grid-column: 1/2;
+    grid-row: 2/5;
+    height: 35vh;
+    position: relative;
+    font-family: "GT-Sectra-Medium";
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+#left-img {
+    grid-column: 1/2;
+    grid-row: 5/8;
+    height: 55vh;
+    position: relative;
+}
+
+/* 
+.left-arrow {
+    height: 0.8em;
+    line-height: 0em;
+    cursor: pointer;
+    padding: 0 10px;
+    visibility: visibile;
+    background-size: cover;
+} */
+
+.left-arrow{
+    display: inline-block;
+    width: 25px;
+    height: 37px;
+    background-size: cover;
+    background-image: url(assets/icons/left_arrow.svg);
+    z-index: 1;
+}
+
+.left-arrow:hover{
+    background-image: url(assets/icons/left_green_arrow.svg);
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+/* RIGHT SIDE*/
+
+#right-div {
+    grid-column: 2/3;
+    grid-row: 2/7;
+    /* border-bottom: 2px solid #00DD16; */
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    /* scrollbar-color: black #00DD16;   */
+    /* height: 90vh; */
+}
+
+.item--header {
+    padding: 5px 15px;
+    font-family: "Champion-HTF-Featherweight";
+    font-size: 2.85em;
+    letter-spacing: 0.25pt;
+    text-transform: uppercase;
+    color: #00DD16;
+}
+
+.item--component {
+    padding: 5px 15px;
+    font-family: "Champion-HTF-Middleweight";
+    font-size: 2.75em;
+    letter-spacing: 0.01pt;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#right-header {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-bottom: 2px solid #00DD16;
+}
+
+#right-component-1 {
+    grid-column: 2/3;
+    border-bottom: 2px solid #00DD16;
+}
+
+#right-component-2 {
+    grid-column: 2/3;
+    border-bottom: 2px solid #00DD16;
+}
+
+#right-component-3 {
+    grid-column: 2/3;
+    border-bottom: 2px solid #00DD16;
+}
+
+#right-component-4 {
+    grid-column: 2/3;
+    border-bottom: 2px solid #00DD16;
+}
+
+/* FOOTER*/
+
+/* #footer-div {
+   grid-column: 1/-1;
+} */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(2, minmax(10%, min-content));
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    grid-column: 1/-1;
+    background-color: #DADADA;
+    font-family: "GT-America-Mono-Medium";
+    color: #00DD16;
+    font-size: 1.5em;
+}
+
+#footer-back {
+    padding: 15px;
+    height: 5vh;
+    border-right: 2px solid #00DD16;
+    border-top: 2px solid #00DD16;
+}
+
+#footer-finish {
+    padding: 15px;
+    height: 5vh;
+    border-top: 2px solid #00DD16;
+}
+
+#next-arrow-anim{
+    display: inline-block;
+    width: 300px;
+    line-height: 0;
+    padding: -2px 5px;
+}
+
+#go-back{
+    text-decoration: none;
+    color: #00DD16;
+}
+
+#go-back:hover{
+    color: black;
+}

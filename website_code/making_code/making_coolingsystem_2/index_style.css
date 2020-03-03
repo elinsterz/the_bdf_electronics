@@ -79,6 +79,14 @@ body {
 }
 
 .header-text {
+    font-family: "Champion-HTF-Featherweight";
+    font-size: 3em;
+    line-height: 0em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header-obj-name {
     font-family: "Champion-HTF-Heavyweight";
     font-size: 3em;
     line-height: 0em;
@@ -86,101 +94,18 @@ body {
     position: relative;
 }
 
-/* LEFT SIDE*/
+/* MAIN ANIMATION DIV */
 
-#left-div {
-    grid-column: 1/2;
-    grid-row: 2/8;
-    border-bottom: 2px solid #00DD16;
-    border-right: 2px solid #00DD16;
-    padding: 15px;
+#div-anim {
+    grid-column: 1/-1;
+    padding: 90px 10px;
 }
 
-#left-about {
-    grid-column: 1/2;
-    grid-row: 2/5;
-    height: 35vh;
-    position: relative;
-    font-family: "GT-Sectra-Medium";
-    font-size: 1.5em;
-    line-height: 1.25em;
-}
-
-#left-img {
-    grid-column: 1/2;
-    grid-row: 5/8;
-    height: 55vh;
-    position: relative;
-}
-
-.left-arrow {
-    height: 0.8em;
-    line-height: 0em;
-    cursor: pointer;
-}
-
-/* RIGHT SIDE*/
-
-#right-div {
-    grid-column: 2/3;
-    grid-row: 2/7;
-    /* border-bottom: 2px solid #00DD16; */
-    /* overflow-y: scroll; */
-    /* overflow-x: hidden; */
-    /* scrollbar-color: black #00DD16;   */
-    /* height: 90vh; */
-}
-
-
-.item--header {
-    padding: 5px 15px;
-    font-family: "Champion-HTF-Featherweight";
-    font-size: 2.85em;
-    letter-spacing: 0.25pt;
-    text-transform: uppercase;
-    color: #00DD16;
-}
-
-.item--component {
-    padding: 5px 15px;
-    font-family: "Champion-HTF-Middleweight";
-    font-size: 2.75em;
-    letter-spacing: 0.01pt;
-    text-transform: uppercase;
-    color: #000;
-}
-
-#right-header {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    border-bottom: 2px solid #00DD16;
-}
-
-#right-component-1 {
-    grid-column: 2/3;
-    border-bottom: 2px solid #00DD16;
-}
-
-#right-component-2 {
-    grid-column: 2/3;
-    border-bottom: 2px solid #00DD16;
-}
-
-#right-component-3 {
-    grid-column: 2/3;
-    border-bottom: 2px solid #00DD16;
-}
-
-#right-component-4 {
-    grid-column: 2/3;
-    border-bottom: 2px solid #00DD16;
+#cooling-system-illos {
+    width: 90vw;
 }
 
 /* FOOTER*/
-
-/* #footer-div {
-   grid-column: 1/-1;
-} */
 
 .footer {
     position: absolute;
@@ -197,15 +122,38 @@ body {
     font-size: 1.5em;
 }
 
-#footer-back {
+.item--footer {
     padding: 15px;
     height: 5vh;
+}
+
+#next-arrow-anim {
+    width: 200px;
+    /* border: red solid 1px; */
+}
+
+#footer-next-div {
     border-right: 2px solid #00DD16;
     border-top: 2px solid #00DD16;
 }
 
+#footer-next-div:hover{
+    color: black;
+    cursor: pointer;
+    /* background-color: #00DD16; */
+}
+
 #footer-finish {
-    padding: 15px;
-    height: 5vh;
     border-top: 2px solid #00DD16;
+}
+
+#footer-link {
+    text-decoration: none;
+    color: #00DD16;
+    line-height: 0;
+}
+
+#footer-link:hover {
+    color: black;
+    /* background-color: #00DD16; */
 }
