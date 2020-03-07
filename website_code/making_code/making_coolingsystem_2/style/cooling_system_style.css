@@ -72,10 +72,13 @@ body {
 #header {
     grid-column: 1/-1;
     border-bottom: 2px solid #00DD16;
+    padding: 0px;
+    line-height: 0.11em;
 }
 
 #header-div {
-    padding: 0em 15px;
+    padding: 0px 15px;
+    height: 2em;
 }
 
 .header-text {
@@ -128,12 +131,12 @@ body {
     width: 25px;
     height: 37px;
     background-size: cover;
-    background-image: url(assets/icons/left_arrow.svg);
+    background-image: url(/assets/icons/left_arrow.svg);
     z-index: 1;
 }
 
 .left-arrow:hover{
-    background-image: url(assets/icons/left_green_arrow.svg);
+    background-image: url(/assets/icons/left_green_arrow.svg);
     z-index: 2;
     cursor: pointer;
 }
@@ -145,10 +148,10 @@ body {
     grid-column: 2/3;
     grid-row: 2/7;
     /* border-bottom: 2px solid #00DD16; */
-    /* overflow-y: scroll; */
-    /* overflow-x: hidden; */
-    /* scrollbar-color: black #00DD16;   */
-    /* height: 90vh; */
+    /* overflow-y: scroll; 
+    overflow-x: hidden;
+    scrollbar-color: black #00DD16;  
+    height: 90vh; */
 }
 
 .item--header {
