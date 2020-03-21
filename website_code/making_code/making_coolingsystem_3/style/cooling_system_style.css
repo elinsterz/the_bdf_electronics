@@ -260,6 +260,7 @@ body {
 .element-icon{
     width: 11.5em;
     display: inlines-block;
+    cursor: pointer;
 }
 
 .element--item{
@@ -279,3 +280,14 @@ body {
     display: block;
     padding-top: 2em;
 }
+
+#cooling-fan-img, #heat-sink-img{
+    width: 85%;
+    padding-left: 5%;
+}
+
+#electrical-wires-img{
+    width: 60%;
+    padding-left: 15%;
+}
+
