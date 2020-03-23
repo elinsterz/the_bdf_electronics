@@ -141,12 +141,12 @@ body {
     width: 25px;
     height: 37px;
     background-size: cover;
-    background-image: url(/assets/icons/left_arrow.svg);
+    background-image: url(/assets/icons/left_arrow.png);
     z-index: 1;
 }
 
 .left-arrow:hover{
-    background-image: url(/assets/icons/left_green_arrow.svg);
+    background-image: url(/assets/icons/left_green_arrow.png);
     z-index: 2;
     cursor: pointer;
 }
@@ -281,6 +281,10 @@ body {
     padding-top: 2em;
 }
 
+#cooling-system-img{
+    width: 100%;
+}
+
 #cooling-fan-img, #heat-sink-img{
     width: 85%;
     padding-left: 5%;
@@ -291,3 +295,7 @@ body {
     padding-left: 15%;
 }
 
+#heat-pipe-img{
+    width: 90%;
+    padding-left: 2%;
+}
