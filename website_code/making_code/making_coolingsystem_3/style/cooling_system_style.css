@@ -126,15 +126,6 @@ body {
     line-height: 1.25em;
 }
 
-/* 
-.left-arrow {
-    height: 0.8em;
-    line-height: 0em;
-    cursor: pointer;
-    padding: 0 10px;
-    visibility: visibile;
-    background-size: cover;
-} */
 
 .left-arrow{
     display: inline-block;
@@ -215,22 +206,10 @@ body {
 }
 
 
-.right-black-arrow{
-    width: 0.9em;
-    display:inline-block;
-    position: relative;
-    float: right;
-    padding: 5px 7px;
-    cursor:pointer;
-}
-
-.left-black-arrow{
-    width: 0.9em;
-    display:inline-block;
-    position: relative;
-    float: right;
-    padding: 5px 7px;
-    cursor:pointer;
+/* STORYBOARD ANIMATION + GRAPHIC */
+.storyboard_graphic{
+    width: 93%;
+    padding: 15px;
 }
 
 
