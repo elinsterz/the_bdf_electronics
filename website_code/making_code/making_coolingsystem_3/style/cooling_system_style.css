@@ -171,6 +171,7 @@ body {
     letter-spacing: 0.25pt;
     text-transform: uppercase;
     color: #00DD16;
+    line-height: 1.25em;
 }
 
 .item--component {
@@ -213,6 +214,27 @@ body {
     border-bottom: 2px solid #00DD16;
 }
 
+
+.right-black-arrow{
+    width: 0.9em;
+    display:inline-block;
+    position: relative;
+    float: right;
+    padding: 5px 7px;
+    cursor:pointer;
+}
+
+.left-black-arrow{
+    width: 0.9em;
+    display:inline-block;
+    position: relative;
+    float: right;
+    padding: 5px 7px;
+    cursor:pointer;
+}
+
+
+/* FOOTER */
 .footer {
     position: absolute;
     bottom: 0;
