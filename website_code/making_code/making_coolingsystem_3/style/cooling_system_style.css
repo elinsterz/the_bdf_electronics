@@ -144,7 +144,6 @@ body {
 
 
 /* RIGHT SIDE*/
-
 #right-div {
     grid-column: 2/3;
     grid-row: 2/7;
@@ -180,7 +179,7 @@ body {
     border-bottom: 2px solid #00DD16;
 }
 
-/* for the pg with the elements listed */
+/* PAGE WITH ELEMENTS LISTED*/
 #right-header-element{
     border: none;
 }
@@ -282,6 +281,8 @@ body {
     padding-top: 2em;
 }
 
+
+/* ILLUSTRATIONS */
 #cooling-system-img{
     width: 100%;
 }
@@ -299,4 +300,14 @@ body {
 #heat-pipe-img{
     width: 90%;
     padding-left: 2%;
+}
+
+
+/* ELEMENTS PAGE */
+.element-steps{
+    font-family: 'GT-America-Mono-Medium';
+    font-size: 0.5em;
+    line-height: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
 }
