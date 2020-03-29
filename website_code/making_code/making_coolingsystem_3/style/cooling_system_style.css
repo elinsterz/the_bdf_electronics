@@ -311,3 +311,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.125em;
 }
+
+
+/* ANIMATION */
+.animation{
+    padding: 0px 15px;
+}
