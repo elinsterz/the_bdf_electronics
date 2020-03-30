@@ -8,11 +8,19 @@
 
     <link rel="stylesheet" href="style/cooling_system_style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--p5js script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
+    <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
 </head>
 
 <body>
     <!--SCRIPTS-->
     <script type="text/javascript" src="script/cooling_system.js"></script>
+    <script id="script" src="script/serial.js"></script>
 
     <div class="container">
 
@@ -29,7 +37,8 @@
                 safe temperatures as the CPU performs activities that often cause it to overheat.
             </div>
             <div class="item" id='left-img'>
-                <img src="assets/illos/cooling_system_illos.png" alt="cooling system image" class="component-img" id = 'cooling-system-img'>
+                <img src="assets/illos/cooling_system_illos.png" alt="cooling system image" class="component-img"
+                    id='cooling-system-img'>
             </div>
         </div>
 
@@ -37,7 +46,7 @@
         <div class="item" id="right-div">
             <div class="item item--header" id="right-header">Components Include:</div>
             <div class="item item--component" id="right-component-1">
-                Heat Sink <span class='left-arrow'onclick="openHeatSink()"></span>
+                Heat Sink <span class='left-arrow' onclick="openHeatSink()"></span>
             </div>
             <div class="item item--component" id="right-component-2">
                 Cooling Fan <span class='left-arrow' onclick="openCoolingFan()"></span>
@@ -54,7 +63,7 @@
     <!--FOOTER-->
     <div class="footer">
         <div class="item item--footer" id="footer-back">
-            <a href="index.html" id ='go-back'>Go Back</a>
+            <a href="index.html" id='go-back'>Go Back</a>
         </div>
         <div class="item item--footer" id="footer-finish">Finished?</div>
     </div>

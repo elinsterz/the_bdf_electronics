@@ -8,11 +8,19 @@
 
     <link rel="stylesheet" href="style/cooling_system_style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--p5js script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
+    <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
 </head>
 
 <body>
     <!--SCRIPTS-->
     <script type="text/javascript" src="script/cooling_system.js"></script>
+    <script id="script" src="script/serial.js"></script>
 
     <div class="container">
 
@@ -46,7 +54,7 @@
         <!--RIGHT-->
         <div class="item" id="right-div">
             <div class="item item--header" id="right-header-element">How Copper is Mined & Made:</div>
-            <video id = 'copper_animation' class = 'animation' width="450" autoplay="autoplay" controls>
+            <video id='copper_animation' class='animation' width="450" autoplay="autoplay" controls>
                 <source src="assets/animation/032720_copper_animation_5.mp4" type="video/mp4">
                 <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
                 Your browser does not support HTML5 video.

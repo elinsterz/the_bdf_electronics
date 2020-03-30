@@ -41,7 +41,7 @@ function serialEvent() {
     //console.log('a');
 
     inData = serial.readLine();
-  
+
     console.log(inData);
 
     //if tag A go to this url
@@ -52,6 +52,11 @@ function serialEvent() {
     //if tag B go to this url
     if (inData == "Tag B") {
         window.location.href = "http://www.twitter.com";
+    }
+
+    //if tag C go to this url
+    if (inData == "Tag C") {
+        window.location.href = "http://www.itsnicethat.com";
     }
 }
 
