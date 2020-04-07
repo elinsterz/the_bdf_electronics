@@ -77,16 +77,18 @@ body {
 }
 
 #header-div {
-    padding: 0px 15px;
-    height: 2em;
+    padding: 1em;
 }
 
 .header-text {
     font-family: "Champion-HTF-Heavyweight";
     font-size: 3em;
-    line-height: 0em;
+    line-height: 1em;
     text-transform: uppercase;
     position: relative;
+    vertical-align: top;
+    top: 0rem;
+    padding: 0;
 }
 
 /* LEFT SIDE*/
