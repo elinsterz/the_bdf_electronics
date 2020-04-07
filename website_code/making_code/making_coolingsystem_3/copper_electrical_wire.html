@@ -37,17 +37,6 @@
                 electricity and heat easily.<br><br>These properties make it an element
                 commonly used in electronics. In fact, a third of all the copper produced goes into making our
                 electronics.<br><br>
-
-                Steps for making copper: <br>
-                <p class='element-steps'>
-                    Step 1: Mining<br>
-                    Step 2: Processing<br>
-                    Step 3: Benefication<br>
-                    Step 4: Smelting<br>
-                    Step 5: Refining<br>
-                    Step 6: Electrorefining<br>
-                    Step 7: Casting<br>
-                </p>
             </div>
         </div>
 
@@ -59,6 +48,14 @@
                 <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
                 Your browser does not support HTML5 video.
             </video>
+
+            <!--VIDEO CONTROLS-->
+            <div id="controls">
+                <button id="playpause" title="play" onclick="togglePlayPause()">Play</button>
+                <input id="volume" min="0" max="1" step="0.1" type="range" onchange="setVolume()" />
+            </div>
+            <!--PROGRESS BAR-->
+            <div id="progressBar"><span id="progress"></span></div>
         </div>
     </div>
 

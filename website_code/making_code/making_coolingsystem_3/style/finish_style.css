@@ -56,7 +56,7 @@ html {
 }
 
 body {
-    background-color: #DADADA;
+    background-color: #000;
 }
 
 .container {
@@ -71,34 +71,37 @@ body {
 
 #header {
     grid-column: 1/-1;
-    border-bottom: 2px solid #00DD16;
+    /* border-bottom: 2px solid #00DD16; */
 }
 
 #header-div {
-    padding: 1em 15px;
+    padding: 0em 15px;
 }
 
 .header-text {
     font-family: "Champion-HTF-Featherweight";
-    font-size: 3.25em;
-    line-height: 1em;
+    font-size: 3.5em;
+    line-height:1em;
     text-transform: uppercase;
     position: relative;
+    color: white;
 }
 
 .header-obj-name {
     font-family: "Champion-HTF-Heavyweight";
-    font-size: 3.25em;
+    font-size: 3.5em;
     line-height: 1em;
     text-transform: uppercase;
     position: relative;
+    color: white;
 }
+
 
 /* MAIN ANIMATION DIV */
 
 #div-anim {
     grid-column: 1/-1;
-    padding: 90px 10px;
+    padding: 4em 10px;
 }
 
 #cooling-system-illos {
@@ -135,6 +138,7 @@ body {
 #footer-next-div {
     border-right: 2px solid #00DD16;
     border-top: 2px solid #00DD16;
+    background-color: #00DD16;
 }
 
 #footer-next-div:hover{
@@ -145,8 +149,7 @@ body {
 
 #footer-finish {
     border-top: 2px solid #00DD16;
-    text-decoration: none;
-    color: #00DD16;
+    background-color: #00DD16;
 }
 
 #footer-link {
@@ -158,4 +161,8 @@ body {
 #footer-link:hover {
     color: black;
     /* background-color: #00DD16; */
+}
+
+#finish-next-arrow{
+    width: 96vw;
 }

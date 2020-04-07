@@ -293,19 +293,19 @@ body {
 }
 
 #electrical-wires-img{
-    width: 60%;
+    width: 72%;
     padding-left: 15%;
 }
 
 #heat-pipe-img{
-    width: 90%;
+    width: 95%;
     padding-left: 2%;
 }
 
 
 /* ELEMENTS PAGE */
 .element-steps{
-    font-family: 'GT-America-Mono-Medium';
+    font-family: 'GT-America-Mono-Medium'; 
     font-size: 0.5em;
     line-height: 2.2em;
     text-transform: uppercase;
@@ -317,3 +317,18 @@ body {
 .animation{
     padding: 0px 15px;
 }
+
+/*VIDEO CONTROLS*/
+#progressBar { 
+    border:1px solid #aaa; 
+    color:#fff; 
+    width:295px; 
+    height:20px;
+    background-color: black;
+ }
+ 
+ #progress {
+    background-color:#ff0000;
+    height:20px;
+    display:inline-block;
+ }
