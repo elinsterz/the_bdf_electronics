@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making - Cooling System</title>
+
+    <link rel="stylesheet" href="style/cooling_system_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+     <!--p5js script-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+     <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
+     <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
+</head>
+
+<body>
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="script/cooling_system.js"></script>
+    <script id="script" src="script/serial.js"></script>
+
+    <div class="container">
+
+        <div class="item" id="header">
+            <div class="item" id="header-div">
+                <p class="header-text">Copper</p>
+            </div>
+        </div>
+
+        <!--LEFT-->
+        <div class="item" id="left-div">
+            <div class="item" id='left-element'>
+                Copper is both malleable and ductile. It's also an excellent conductor, which means it carries
+                electricity and heat easily.<br><br>These properties make it an element
+                commonly used in electronics. In fact, a third of all the copper produced goes into making our
+                electronics.
+            </div>
+        </div>
+
+        <!--RIGHT-->
+        <div class="item" id="right-div">
+            <div class="item item--header" id="right-header-element">How Copper is Mined & Made:</div>
+            <video id = 'copper_animation' class = 'animation' width="450" autoplay="autoplay" controls>
+                <source src="assets/animation/032720_copper_animation_5.mp4" type="video/mp4">
+                <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="item item--footer" id="footer-back">
+            <a href="heat_pipe.html" id='go-back'>Go Back</a>
+        </div>
+        <div class="item item--footer" id="footer-finish">Finished?</div>
+    </div>
+
+
+</body>
+
+</html>

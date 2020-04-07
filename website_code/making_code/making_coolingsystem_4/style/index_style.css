@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Champion-HTF-Bantamweight';
+    src: url('/assets/fonts/Champion-HTF-Bantamweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Bantamweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Champion-HTF-Featherweight';
+    src: url('/assets/fonts/Champion-HTF-Featherweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Featherweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Champion-HTF-Heavyweight';
+    src: url('/assets/fonts/Champion-HTF-Heavyweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Heavyweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Champion-HTF-Middleweight';
+    src: url('/assets/fonts/Champion-HTF-Middleweight.eot');
+    src: url('/assets/fonts/Champion-HTF-Middleweight.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'GT-America-Mono-Medium';
+    src: url('/assets/fonts/GT-America-Mono-Medium.eot');
+    src: url('/assets/fonts/GT-America-Mono-Medium.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'GT-America-Mono-Regular';
+    src: url('/assets/fonts/GT-America-Mono-Regular.eot');
+    src: url('/assets/fonts/GT-America-Mono-Regular.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'GT-Sectra-Medium';
+    src: url('/assets/fonts/GT-Sectra-Medium.eot');
+    src: url('/assets/fonts/GT-Sectra-Medium.ttf');
+    format('truetype');
+}
+
+/* div {
+    border: 0.7px red dashed;
+} */
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: #DADADA;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(10%, min-content));
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+}
+
+#header {
+    grid-column: 1/-1;
+    border-bottom: 2px solid #00DD16;
+}
+
+#header-div {
+    padding: 1em 15px;
+}
+
+.header-text {
+    font-family: "Champion-HTF-Featherweight";
+    font-size: 3.25em;
+    line-height: 1em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header-obj-name {
+    font-family: "Champion-HTF-Heavyweight";
+    font-size: 3.25em;
+    line-height: 1em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+/* MAIN ANIMATION DIV */
+
+#div-anim {
+    grid-column: 1/-1;
+    padding: 90px 10px;
+}
+
+#cooling-system-illos {
+    width: 90vw;
+}
+
+/* FOOTER*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(2, minmax(10%, min-content));
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    grid-column: 1/-1;
+    background-color: #DADADA;
+    font-family: "GT-America-Mono-Medium";
+    color: #00DD16;
+    font-size: 1.65em;
+}
+
+.item--footer {
+    padding: 15px;
+    height: 5vh;
+}
+
+#next-arrow-anim {
+    width: 200px;
+    /* border: red solid 1px; */
+}
+
+#footer-next-div {
+    border-right: 2px solid #00DD16;
+    border-top: 2px solid #00DD16;
+}
+
+#footer-next-div:hover{
+    color: black;
+    cursor: pointer;
+    /* background-color: #00DD16; */
+}
+
+#footer-finish {
+    border-top: 2px solid #00DD16;
+    text-decoration: none;
+    color: #00DD16;
+}
+
+#footer-link {
+    text-decoration: none;
+    color: #00DD16;
+    line-height: 0;
+}
+
+#footer-link:hover {
+    color: black;
+    /* background-color: #00DD16; */
+}

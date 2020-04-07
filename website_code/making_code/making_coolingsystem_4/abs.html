@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making - Cooling System</title>
+
+    <link rel="stylesheet" href="style/cooling_system_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--p5js script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
+    <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
+</head>
+
+<body>
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="script/cooling_system.js"></script>
+    <script id="script" src="script/serial.js"></script>
+
+    <div class="container">
+
+        <div class="item" id="header">
+            <div class="item" id="header-div">
+                <p class="header-text">ABS Plastic</p>
+            </div>
+        </div>
+
+        <!--LEFT-->
+        <div class="item" id="left-div">
+            <div class="item" id='left-element'>
+                Acrylonitrile Butadiene Styrene (ABS), is one of the most widely used plastics and is a type of
+                thermoplastic. A thermoplastic is a material, usually a plastic, which becomes soft when heated and hard
+                when cooled.
+                <br><br>
+                ABS is very resistant to physical impacts and chemical corrosion, allowing this material to withstand
+                heavy use and tough environmental conditions.
+            </div>
+        </div>
+
+        <!--RIGHT-->
+        <div class="item" id="right-div">
+            <div class="item item--header" id="right-header-element">How ABS Plastic is Made:</div>
+            <!--VIDEO GOES HERE-->
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="item item--footer" id="footer-back">
+            <a href="cooling_fan.html" id='go-back'>Go Back</a>
+        </div>
+        <div class="item item--footer" id="footer-finish">Finished?</div>
+    </div>
+
+
+</body>
+
+</html>
