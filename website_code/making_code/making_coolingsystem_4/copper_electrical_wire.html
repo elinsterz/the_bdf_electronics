@@ -54,18 +54,14 @@
 
                 <!--CONTROLS-->
                 <div id="video-controls" class="controls" data-state="hidden">
-                    <button onclick='playVid()' id="play-button" type="button">Play</button>
-                    <!-- <button onclick='playVid()' id="play-button" type="button"><img src="assets/icons/play_icon.png"
-                            id="play-icon" alt="playhead"></button> -->
+                    <button id="play-button" type="button"><img src="assets/icons/pause_icon.png" id="play-icon"
+                            alt="playhead"></button>
                     <div class="progress">
-                        <progress id="progress" value="0" min="0">
-                            <span id="progress-bar"></span>
-                        </progress>
+                        <progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
                     </div>
-                    <!-- <button id="volinc" type="button" data-state="volup">Vol+</button>
-                    <button id="voldec" type="button" data-state="voldown">Vol-</button> -->
                 </div>
             </figure>
+            
         </div>
     </div>
 
