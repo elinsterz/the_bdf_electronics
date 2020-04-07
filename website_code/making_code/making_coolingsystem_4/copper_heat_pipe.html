@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="style/cooling_system_style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-     <!--p5js script-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
-     <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
-     <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
+    <!--p5js script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
+    <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
 </head>
 
 <body>
@@ -43,11 +43,24 @@
         <!--RIGHT-->
         <div class="item" id="right-div">
             <div class="item item--header" id="right-header-element">How Copper is Mined & Made:</div>
-            <video id = 'copper_animation' class = 'animation' width="450" autoplay="autoplay" controls>
-                <source src="assets/animation/032720_copper_animation_5.mp4" type="video/mp4">
-                <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-                Your browser does not support HTML5 video.
-            </video>
+
+            <!--VIDEO-->
+            <figure id="videoContainer">
+                <video id='my-video' class='animation' width="450" autoplay="autoplay">
+                    <source src="assets/animation/032720_copper_animation_5.mp4" type="video/mp4">
+                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                    Your browser does not support HTML5 video.
+                </video>
+
+                <!--CONTROLS-->
+                <div id="video-controls" class="controls" data-state="hidden">
+                    <button id="play-button" type="button"><img src="assets/icons/pause_icon.png" id="play-icon"
+                            alt="playhead"></button>
+                    <div class="progress">
+                        <progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
+                    </div>
+                </div>
+            </figure>
         </div>
     </div>
 
@@ -56,7 +69,10 @@
         <div class="item item--footer" id="footer-back">
             <a href="heat_pipe.html" id='go-back'>Go Back</a>
         </div>
-        <div class="item item--footer" id="footer-finish">Finished?</div>
+        <!--FINISHED-->
+        <div class="item item--footer" id="footer-finish">
+            <a href="finish.html" id='footer-link'>Finished?</a>
+        </div>
     </div>
 
 
