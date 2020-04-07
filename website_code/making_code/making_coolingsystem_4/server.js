@@ -30,7 +30,7 @@ function requestHandler(req, res) {
 var httpServer = http.createServer(requestHandler);
 
 // Tell that server to listen on port 8080
-httpServer.listen(8080);  
+httpServer.listen(8000);  
 
-console.log('Server listening on port 8080');	
+console.log('Server listening on port 8000');	
 
