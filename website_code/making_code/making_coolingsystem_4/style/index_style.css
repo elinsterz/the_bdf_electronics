@@ -47,6 +47,7 @@
     format('truetype');
 }
 
+
 /* div {
     border: 0.7px red dashed;
 } */
@@ -94,6 +95,7 @@ body {
     position: relative;
 }
 
+
 /* MAIN ANIMATION DIV */
 
 #div-anim {
@@ -104,6 +106,7 @@ body {
 #cooling-system-illos {
     width: 90vw;
 }
+
 
 /* FOOTER*/
 
@@ -119,7 +122,7 @@ body {
     background-color: #DADADA;
     font-family: "GT-America-Mono-Medium";
     color: #5Ae100;
-    font-size: 1.65em;
+    font-size: 1.5em;
 }
 
 .item--footer {
@@ -137,7 +140,7 @@ body {
     border-top: 2px solid #5Ae100;
 }
 
-#footer-next-div:hover{
+#footer-next-div:hover {
     color: black;
     cursor: pointer;
     /* background-color: #5Ae100; */

@@ -44,7 +44,7 @@
 
             <!--VIDEO-->
             <figure id="videoContainer">
-                <video id='my-video' class='animation' autoplay="autoplay">
+                <video id='my-video' class='animation' autoplay="autoplay" loop>
                     <source src="assets/animation/032720_copper_animation_5.mp4" type="video/mp4">
                     <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
                     Your browser does not support HTML5 video.
@@ -64,9 +64,17 @@
 
     <!--FOOTER-->
     <div class="footer">
-        <div class="item item--footer" id="footer-back">
-            <a href="heat_sink.html" id='go-back'>Go Back</a>
+
+        <!--LEFT FOOTER-->
+        <div class="item item--footer" id="footer-div">
+            <div class="left-footer-div" id='footer-home'>
+                <a href="index.html" id='go-back'>Home</a>
+            </div>
+            <div class="left-footer-div" id="footer-back">
+                <a href="heat_sink.html" id='go-back'>Back</a>
+            </div>
         </div>
+
         <!--FINISHED-->
         <div class="item item--footer" id="footer-finish">
             <a href="finish.html" id='footer-link'>Finished?</a>

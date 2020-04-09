@@ -154,8 +154,8 @@ body {
     /* border-bottom: 2px solid #5ae100; */
     /* overflow-y: scroll; 
     overflow-x: hidden;
-    scrollbar-color: black #5ae100;  
-    height: 90vh; */
+    scrollbar-color: black #5ae100;  */
+    height: 100vh;
 }
 
 .item--header {
@@ -241,11 +241,27 @@ body {
     font-size: 1.5em;
 }
 
+#footer-div {
+    border-right: 2px solid #5ae100;
+    border-top: 2px solid #5ae100;
+    height: 9vh;
+}
+
+.left-footer-div {
+    width: 25%;
+    display: inline-block;
+}
+
+#footer-home {
+    padding: 15px;
+    height: 5vh;
+    width: 40%;
+    border-right: 2px solid #5ae100;
+}
+
 #footer-back {
     padding: 15px;
     height: 5vh;
-    border-right: 2px solid #5ae100;
-    border-top: 2px solid #5ae100;
 }
 
 #footer-finish {
@@ -349,7 +365,7 @@ body {
 
 .animation {
     padding: 0px 15px;
-    width: 400px;
+    width: 25rem;
 }
 
 .animation:focus {
@@ -413,7 +429,7 @@ figure {
 progress {
     color: #5ae100;
     font-size: 12px;
-    width: 347px;
+    width: 21.7rem;
     height: 21px;
     border: none;
     margin-right: 10px;
