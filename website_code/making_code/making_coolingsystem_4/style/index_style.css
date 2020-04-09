@@ -71,7 +71,7 @@ body {
 
 #header {
     grid-column: 1/-1;
-    border-bottom: 2px solid #00DD16;
+    border-bottom: 2px solid #5Ae100;
 }
 
 #header-div {
@@ -118,7 +118,7 @@ body {
     grid-column: 1/-1;
     background-color: #DADADA;
     font-family: "GT-America-Mono-Medium";
-    color: #00DD16;
+    color: #5Ae100;
     font-size: 1.65em;
 }
 
@@ -133,25 +133,25 @@ body {
 }
 
 #footer-next-div {
-    border-right: 2px solid #00DD16;
-    border-top: 2px solid #00DD16;
+    border-right: 2px solid #5Ae100;
+    border-top: 2px solid #5Ae100;
 }
 
 #footer-next-div:hover{
     color: black;
     cursor: pointer;
-    /* background-color: #00DD16; */
+    /* background-color: #5Ae100; */
 }
 
 #footer-finish {
-    border-top: 2px solid #00DD16;
+    border-top: 2px solid #5Ae100;
     text-decoration: none;
-    color: #00DD16;
+    color: #5Ae100;
 }
 
 #footer-link {
     text-decoration: none;
-    color: #00DD16;
+    color: #5Ae100;
     line-height: 0;
 }
 
