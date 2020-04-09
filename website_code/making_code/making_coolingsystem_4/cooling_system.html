@@ -33,28 +33,26 @@
         <!--LEFT-->
         <div class="item" id="left-div">
             <div class="item" id='left-about'>
-                This cooling system keeps the Central Processing Unit (CPU), also known as the brain of the computer, in
-                safe temperatures as the CPU performs activities that often cause it to overheat.
+                This cooling system keeps the Central Processing Unit (CPU), also known as the brain of the computer, in safe temperatures as the CPU performs activities that often cause it to overheat.
             </div>
             <div class="item" id='left-img'>
-                <img src="assets/illos/cooling_system_illos_w_lines.png" alt="cooling system image"
-                    class="component-img" id='cooling-system-img'>
+                <img src="assets/illos/cooling_system_illos_w_lines.png" alt="cooling system image" class="component-img" id='cooling-system-img'>
             </div>
         </div>
 
         <!--RIGHT-->
         <div class="item" id="right-div">
             <div class="item item--header" id="right-header">Components Include:</div>
-            <div class="item item--component" id="right-component-1">
+            <div class="item item--component" id="right-component-1" onclick="openHeatSink()">
                 Heat Sink <span class='left-arrow' onclick="openHeatSink()"></span>
             </div>
-            <div class="item item--component" id="right-component-2">
+            <div class="item item--component" id="right-component-2" onclick="openCoolingFan()">
                 Cooling Fan <span class='left-arrow' onclick="openCoolingFan()"></span>
             </div>
-            <div class="item item--component" id="right-component-3">
+            <div class="item item--component" id="right-component-3" onclick="openHeatPipe()">
                 Heat Pipe <span class='left-arrow' alt="left_arrow" onclick="openHeatPipe()"></span>
             </div>
-            <div class="item item--component" id="right-component-4">
+            <div class="item item--component" id="right-component-4" onclick="openElectricalWires()">
                 Electrical Wires <span class='left-arrow' alt="left_arrow" onclick="openElectricalWires()"></span>
             </div>
         </div>
