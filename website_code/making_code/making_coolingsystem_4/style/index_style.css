@@ -57,7 +57,7 @@ html {
 }
 
 body {
-    background-color: #DADADA;
+    background-color: #dedede;
 }
 
 .container {
@@ -101,6 +101,14 @@ body {
 #div-anim {
     grid-column: 1/-1;
     padding: 90px 10px;
+    z-index: -1;
+}
+
+#object-intro-anim{
+    width: 100%;
+    top: 2%;
+    left: 0;
+    position: fixed;
 }
 
 #cooling-system-illos {
@@ -119,7 +127,7 @@ body {
     grid-template-rows: repeat(2, minmax(10%, min-content));
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
     grid-column: 1/-1;
-    background-color: #DADADA;
+    /* background-color: #DADADA; */
     font-family: "GT-America-Mono-Medium";
     color: #5Ae100;
     font-size: 1.5em;
