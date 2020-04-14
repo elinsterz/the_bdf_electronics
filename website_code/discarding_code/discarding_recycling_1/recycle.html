@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Making - Cooling System</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recycling Electronics</title>
 
-    <link rel="stylesheet" href="style/recycle_style.css">
+    <link rel="stylesheet" href="style/recycle_style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!--p5js script-->
@@ -21,28 +21,29 @@
     <!--SCRIPTS-->
     <!-- <script type="text/javascript" src="script/cooling_system.js"></script> -->
     <script id="script" src="script/serial.js"></script>
-
     <div class="container">
-
-        <div class="left-section" id="left-div">
-            <div id="header-div" class = 'item-1'>
-                <span class="header-text-narrow">How are electronics</span><br>
-                <span class = "header-text-wide">recycled?</span>
+        <div class="container-left">
+            <div class="item-1" id="header-div">
+                <span class="header-text-narrow">How are electronics</span><br />
+                <span class="header-text-wide">recycled?</span>
             </div>
 
-            
+            <div class="item-1">
+                <img src="assets/diagram/flow_chart_1.png" alt="flow chart diagram" id="flow-chart" />
+            </div>
+
+            <div class="item-1" id='left-next'>
+                <h3 class='footer-h3'>Next</h3>
+            </div>
         </div>
 
-
         <!--RIGHT-->
-        <div class="right-section" id="right-div">
-            <div id = 'right-diagram-table'>
-                <img src="assets/diagram/simple_diagram_1.png" alt="simple diagram"  id= 'right-diagram-img'>
+        <div class="container-right">
+            <div class="item-2" id="right-diagram-table">
+                <img src="assets/diagram/simple_diagram_1.png" alt="simple diagram" id="right-diagram-img" />
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>

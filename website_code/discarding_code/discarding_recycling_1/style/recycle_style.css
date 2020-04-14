@@ -61,21 +61,43 @@ body {
 }
 
 .container {
-    position: absolute;
+    position: fixed;
+    display: grid;
     top: 0;
     left: 0;
     width: 100%;
-    display: grid;
-    grid-template-rows: repeat(2, minmax(10%, min-content));
     grid-template-columns: 5fr 3fr;
+    grid-template-rows: repeat(auto-fill, min-content));
+}
+
+.container-left {
+    display: grid;
+    height: 100vh;
+    border-right: 2px solid #5ae100;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, min-content));
+    /* border: 1px solid red; */
+}
+
+.container-right {
+    display: grid;
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+}
+
+.item-1 {
+    /* border: solid 1px red; */
 }
 
 #header-div {
-    padding: 1em;
+    margin: 2em;
     text-align: center;
+    height: 12vh;
+    /* border: 1px solid red; */
 }
 
-.header-text-wide{
+.header-text-wide {
     font-family: "Champion-HTF-Heavyweight";
     font-size: 3em;
     line-height: 1em;
@@ -86,7 +108,7 @@ body {
     padding: 0;
 }
 
-.header-text-narrow{
+.header-text-narrow {
     font-family: "Champion-HTF-Featherweight";
     font-size: 3em;
     line-height: 1em;
@@ -98,58 +120,75 @@ body {
 }
 
 
-
 /* LEFT SIDE*/
 
-.left-section{
+.left-section {
     display: grid;
     grid-template-columns: 1fr;
-    height: 100vh;
+    grid-template-rows: repeat(auto-fill, min-content));
     border-right: solid 2px #5ae100;
 }
 
-.item-1 {
+#left-next {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #dedede;
+    border-top: solid 2px #5ae100;
     height: auto;
-    padding: 1em;
-    /* border: solid 1px red; */
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.footer-h3 {
+    font-family: "GT-America-Mono-Medium";
+    color: #5ae100;
+    font-size: 1.5em;
 }
 
 
-/* RIGHT SIDE*/
+/*FLOW CHART*/
 
-#right-div {
-    grid-column: 2/3;
-    grid-row: 2/7;
-    height: 100vh;
-}
-
-
-.item--component:hover {
-    /* color: #5ae100; */
-    cursor: pointer;
-}
-
-#right-header {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    border-bottom: 2px solid #5ae100;
+#flow-chart {
+    width: 200vh;
+    z-index: -5;
+    left: -23em;
+    top: -30%;
+    position: absolute;
 }
 
 
 /* RIGHT DIAGRAM */
-#right-diagram-img{
+
+.right-section {
+    background-color: #dedede;
+    z-index: 5;
+}
+
+#right-diagram-table {
+    background-color: #dedede;
+}
+
+#right-diagram-img {
     width: 30vw;
-    z-index: -2;
-    top: 3em;
-    bottom: 3em;
+    z-index: 2;
+    top: 2em;
+    bottom: 2em;
     position: absolute;
     padding: 2em;
-    vertical-align:middle;
+    vertical-align: middle;
     /* border: 1px solid red; */
 }
 
 
+/*LINES */
 
+
+/* #line1{
+   width: 1px;
+   background-color: red;
+} */
 
 
 /* FOOTER 
