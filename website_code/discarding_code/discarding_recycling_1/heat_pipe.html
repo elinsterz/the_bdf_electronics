@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making - Cooling System</title>
+
+    <link rel="stylesheet" href="style/cooling_system_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--p5js script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
+    <script language="javascript" type="text/javascript" src="p5.serialport.js"></script>
+</head>
+
+<body>
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="script/cooling_system.js"></script>
+    <script id="script" src="script/serial.js"></script>
+
+    <div class="container">
+
+        <div class="item" id="header">
+            <div class="item" id="header-div">
+                <span class="header-text">Heat Pipe</span>
+            </div>
+        </div>
+
+        <!--LEFT-->
+        <div class="item" id="left-div">
+            <div class="item" id='left-about'>
+                Heat pipes are liquid-filled copper pipes that connect to the top of the CPU and carry the heat away from it to a heatsink and fan.
+            </div>
+            <div class="item" id='left-img'>
+                <img src="assets/illos/cooling_heatpipe_illos_w_thick_lines.png" alt="heat pipe" class="component-img" id="heat-pipe-img">
+            </div>
+        </div>
+
+        <!--RIGHT-->
+        <div class="item" id="right-div">
+            <div class="item item--header" id="right-header-element">This is made of:</div>
+            <div class="element--item">
+                <!--COPPER-->
+                <a href="copper_heat_pipe.html"> <img src="assets/elements/element_cu.png" alt="copper element" class="element-icon"></a>
+                <a href="copper_heat_pipe.html"><img src="assets/icons/info_icon.png" alt="element info" class="element-info"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer">
+        <!--LEFT FOOTER-->
+        <div class="item item--footer" id="footer-div">
+            <div class="left-footer-div" id='footer-home'>
+                <a href="index.html" id='go-back'>Home</a>
+            </div>
+            <div class="left-footer-div" id="footer-back">
+                <a href="cooling_system.html" id='go-back'>Back</a>
+            </div>
+        </div>
+        <!--FINISHED-->
+        <div class="item item--footer" id="footer-finish">
+            <a href="finish.html" id='footer-link'>Finished?</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
