@@ -3,12 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Making - Cooling System</title>
+    <title>e-Cycle Thesis</title>
 
     <link rel="stylesheet" href="style/index_style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    
 
     <!--p5js script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
@@ -23,29 +21,47 @@
   </head>
 
   <body>
-
     <div class="container">
       <!--HEADER-->
       <div class="item" id="header">
         <div class="item" id="header-div">
-          <span class="header-text-wide">e-CYCLE</span><br />
-          <span class="header-text-narrow">The Journey Through Electronics</span>
+          <span class="header-text-wide">e-CYCLE:</span><br />
+          <span class="header-text-narrow"
+            >The Journey Through Electronics</span
+          >
         </div>
       </div>
 
-      <!--MAIN ANIMATION-->
+      <!--HEADER - MAIN ANIMATION-->
       <div class="item" id="div-anim">
-        <video id = 'object-intro-anim' playsinline autoplay muted loop>
-          <source src="assets/animation/thesis_doc_intro_anim_3.mp4" type="video/mp4" />
+        <video id="object-intro-anim" playsinline autoplay muted loop>
+          <source
+            src="assets/animation/thesis_doc_intro_anim_3.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
 
-      <!--VIDEO OF INTERACTIVE-->
-
-
-
-
+      <!--BLACK - VIDEO OF INTERACTIVE-->
+      <div class="video-section" id="about-video">
+        <div class="video-item-1"></div>
+        <div class="video-item-1"></div>
+        <div class="video-item-1"></div>
+        <div class="video-item-2"></div>
+         <!--VIDEO GOES HERE-->
+        <div id="video-source-div" class="video-item-2">
+          <video class ='video-black' playsinline autoplay muted loop>
+            <source
+              src="assets/animation/thesis_doc_intro_anim_3.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="video-item-2"></div>
+        <div class="video-item-1"></div>
+        <div class="video-item-1"></div>
+        <div class="video-item-1"></div>
+      </div>
     </div>
-
   </body>
 </html>
