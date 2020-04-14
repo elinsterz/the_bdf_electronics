@@ -13,11 +13,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
     <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
-    <script
-      language="javascript"
-      type="text/javascript"
-      src="p5.serialport.js"
-    ></script>
   </head>
 
   <body>
@@ -44,24 +39,77 @@
 
       <!--BLACK - VIDEO OF INTERACTIVE-->
       <div class="video-section" id="about-video">
-        <div class="video-item-1"></div>
-        <div class="video-item-1"></div>
-        <div class="video-item-1"></div>
-        <div class="video-item-2"></div>
-         <!--VIDEO GOES HERE-->
-        <div id="video-source-div" class="video-item-2">
-          <video class ='video-black' playsinline autoplay muted loop>
+        <div class="item-1"></div>
+        <div class="item-1"></div>
+        <div class="item-1"></div>
+        <div class="item-2"></div>
+        <!--VIDEO GOES HERE-->
+        <div id="video-source-div" class="item-2">
+          <h3>Video of Interactive</h3>
+          <video class="video-file" playsinline autoplay muted loop>
             <source
               src="assets/animation/thesis_doc_intro_anim_3.mp4"
               type="video/mp4"
             />
           </video>
         </div>
-        <div class="video-item-2"></div>
-        <div class="video-item-1"></div>
-        <div class="video-item-1"></div>
-        <div class="video-item-1"></div>
+        <div class="item-2"></div>
+        <div class="item-1"></div>
+        <div class="item-1"></div>
+        <div class="item-1"></div>
       </div>
+
+      <!--GREEN ABOUT TEXT-->
+      <div class="about-section" id="about-text-div">
+        <div class="item-1"></div>
+        <div class="item-1"></div>
+        <div class="item-1"></div>
+        <div class="item-2"></div>
+        <!--TEXT GOES HERE-->
+        <div id="about-div" class="item-2">
+          <h3 class = 'about-h3'>About</h3>
+          <p class = 'body-text'>
+            e-Cycle: The Journey Through Electronics is a mobile, educational
+            interactive designed to live in various public spaces such
+            as recycling centers, libraries and relevant events. This traveling
+            interactive consists of 2 parts - a "Making Electronics" and a "Discarding Electronics" kiosk.
+          </p>
+          <h3 class = 'about-h3'>Objective</h3>
+          <p class = 'body-text'>
+            Digital devices require an inordinate amount of material and labor
+            to mine and manufacture. From the mining sites to the clean room,
+            there are thousands of hands, chemicals and minerals that make a
+            technological product possible. In addition, the infrastructure for disposing a
+            device consists of complex processes and machinery. Few of our current electronics disposal methods, including recycling, are optimal – our options take for granted the high labor, environment, energy and health costs needed to create them.
+          </p>
+        </div>
+        <div class="item-2"></div>
+        <div class="item-1"></div>
+        <div class="item-1"></div>
+        <div class="item-1"></div>
+      </div>
+
+
+      <!--KIOSK 1 STEPS-->
+      <div class="kiosk-section" id="kiosk-div-1">
+        <!--LEFT-->
+        <div class = "kiosk-left-div">
+          <div class="kiosk-item-1">
+            <h3>Kiosk 1</h3>
+            <h2></h2>
+          </div>
+          <div class="kiosk-item-1"></div>
+          <div class="kiosk-item-1"></div>
+          <div class="kiosk-item-1"></div>
+        </div>
+        <!--RIGHT-->
+        <div class = "kiosk-right-div">
+          <div class="kiosk-item-2"></div>
+        </div>
+      </div>
+
+
+
     </div>
   </body>
 </html>
