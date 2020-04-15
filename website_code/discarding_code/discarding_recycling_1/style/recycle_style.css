@@ -181,7 +181,7 @@ body {
 
 /* LEFT DIAGERAM */
 
-#diagram-div {
+.diagram-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,6 +205,17 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+/* 
+.diagram-plus {
+    background: #5Ae100;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-left: 1em;
+    position: relative;
+} */
 
 #ewaste-dropoff-rect {
     text-align: left;
