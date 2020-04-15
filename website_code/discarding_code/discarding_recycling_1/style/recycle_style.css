@@ -73,10 +73,11 @@ body {
 .container-left {
     display: grid;
     height: 100vh;
-    border-right: 2px solid #5ae100;
+    /* height: auto; */
+    border-right: 2px solid #5Ae100;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fill, min-content));
+    grid-template-rows: 1fr;
     /* border: 1px solid red; */
 }
 
@@ -84,10 +85,6 @@ body {
     display: grid;
     /* height: 100vh; */
     /* border: 1px solid red; */
-}
-
-.item-1 {
-    /* border: solid 1px red; */
 }
 
 #header-div {
@@ -126,14 +123,14 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, min-content));
-    border-right: solid 2px #5ae100;
+    border-right: solid 2px #5Ae100;
 }
 
-#left-next {
+#footer {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #dedede;
-    border-top: solid 2px #5ae100;
+    border-top: solid 2px #5Ae100;
     height: auto;
     position: absolute;
     bottom: 0;
@@ -143,7 +140,7 @@ body {
 
 .footer-h3 {
     font-family: "GT-America-Mono-Medium";
-    color: #5ae100;
+    color: #5Ae100;
     font-size: 1.5em;
 }
 
@@ -182,7 +179,37 @@ body {
 }
 
 
-/*LINES */
+/* LEFT DIAGERAM */
+
+#diagram-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px red;
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    top: -20vh;
+}
+
+
+/* SVG */
+
+.item-1 {
+    border: solid 1px red;
+}
+
+.diagram-rect {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ewaste-dropoff-rect {
+    text-align: left;
+    padding: 2em;
+}
 
 
 /* #line1{
@@ -203,13 +230,13 @@ body {
     grid-column: 1/-1;
     background-color: #DADADA;
     font-family: "GT-America-Mono-Medium";
-    color: #5ae100;
+    color: #5Ae100;
     font-size: 1.5em;
 }
 
 #footer-div {
-    border-right: 2px solid #5ae100;
-    border-top: 2px solid #5ae100;
+    border-right: 2px solid #5Ae100;
+    border-top: 2px solid #5Ae100;
     height: 9vh;
 }
 
@@ -222,7 +249,7 @@ body {
     padding: 15px;
     height: 5vh;
     width: 40%;
-    border-right: 2px solid #5ae100;
+    border-right: 2px solid #5Ae100;
 }
 
 #footer-back {
@@ -233,14 +260,14 @@ body {
 #footer-finish {
     padding: 15px;
     height: 5vh;
-    border-top: 2px solid #5ae100;
+    border-top: 2px solid #5Ae100;
     text-decoration: none;
-    color: #5ae100;
+    color: #5Ae100;
 }
 
 #footer-link {
     text-decoration: none;
-    color: #5ae100;
+    color: #5Ae100;
     line-height: 0;
 }
 
@@ -261,7 +288,7 @@ body {
 
 #go-back {
     text-decoration: none;
-    color: #5ae100;
+    color: #5Ae100;
 }
 
 #go-back:hover {
